@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER,HSE_VALUE=8000000</Define>
               <Undefine></Undefine>
-              <IncludePath>..\firmware\cmsis\core;..\firmware\cmsis\device;..\firmware\driver\inc</IncludePath>
+              <IncludePath>..\firmware\cmsis\core;..\firmware\cmsis\device;..\firmware\driver\inc;..\driver</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -393,6 +393,48 @@
         </Group>
         <Group>
           <GroupName>driver</GroupName>
+          <Files>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\driver\led.h</FilePath>
+            </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\driver\usart.h</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\cpu_delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\driver\cpu_delay.h</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\key.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\driver\key.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>firmware/cmsis</GroupName>
